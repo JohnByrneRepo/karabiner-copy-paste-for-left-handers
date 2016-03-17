@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Right ctrl + fn = copy</name>
+    <identifier>private.rightcontrol_plus_fn_to_copy</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::FN, ModifierFlag::CONTROL_R,
+      KeyCode::C,   ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Right shift + fn = paste</name>
+    <identifier>private.rightshift_plus_fn_to_paste</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::FN, ModifierFlag::SHIFT_R,
+      KeyCode::V,   ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+</root>
+s
